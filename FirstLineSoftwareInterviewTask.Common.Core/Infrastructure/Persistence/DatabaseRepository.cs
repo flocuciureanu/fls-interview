@@ -2,10 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FirstLineSoftwareInterviewTask.Common.Core.ExtensionMethods;
 using FirstLineSoftwareInterviewTask.Common.Core.Settings.DataAccess;
 using Microsoft.Extensions.Logging;
-using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.Persistence

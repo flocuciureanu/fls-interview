@@ -5,6 +5,7 @@ using FirstLineSoftwareInterviewTask.Hosting.WebApi.Contracts.V1;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+
 #pragma warning disable 1591
 
 namespace FirstLineSoftwareInterviewTask.Hosting.WebApi.Controllers

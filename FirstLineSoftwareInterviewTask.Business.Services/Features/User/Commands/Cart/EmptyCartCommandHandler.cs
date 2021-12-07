@@ -5,7 +5,6 @@ using FirstLineSoftwareInterviewTask.Business.Entities.Entities.User.MongoDataMo
 using FirstLineSoftwareInterviewTask.Business.Services.Features.User.Services;
 using FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.CommandBus;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using MongoDB.Driver;
 
 namespace FirstLineSoftwareInterviewTask.Business.Services.Features.User.Commands.Cart

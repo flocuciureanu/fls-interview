@@ -1,6 +1,5 @@
 using FirstLineSoftwareInterviewTask.Common.Core.ExtensionMethods;
 using FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.CommandBus;
-using FluentValidation;
 
 namespace FirstLineSoftwareInterviewTask.Business.Services.Features.User.Commands.User
 {

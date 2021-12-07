@@ -9,8 +9,4 @@
     <ProjectReference Include="..\FirstLineSoftwareInterviewTask.Common.Core\FirstLineSoftwareInterviewTask.Common.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="10.1.1" />
-  </ItemGroup>
-
 </Project>

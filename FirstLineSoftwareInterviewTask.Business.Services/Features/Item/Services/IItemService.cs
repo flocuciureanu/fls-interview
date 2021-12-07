@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using FirstLineSoftwareInterviewTask.Business.Entities.Entities.Item.MongoDataModel;
-using MongoDB.Driver;
 
 namespace FirstLineSoftwareInterviewTask.Business.Services.Features.Item.Services
 {

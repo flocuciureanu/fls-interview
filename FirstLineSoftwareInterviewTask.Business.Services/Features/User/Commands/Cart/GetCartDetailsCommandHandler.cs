@@ -5,7 +5,6 @@ using FirstLineSoftwareInterviewTask.Business.Services.Features.User.Services;
 using FirstLineSoftwareInterviewTask.Common.Core.ExtensionMethods;
 using FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.Builder.Response.Builder;
 using FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.CommandBus;
-using Microsoft.AspNetCore.Http;
 
 namespace FirstLineSoftwareInterviewTask.Business.Services.Features.User.Commands.Cart
 {
