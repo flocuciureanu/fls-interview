@@ -1,5 +1,5 @@
-
 using FirstLineSoftwareInterviewTask.Common.Core.Common.Error;
+using Microsoft.AspNetCore.Http;
 
 namespace FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.CommandBus
 {

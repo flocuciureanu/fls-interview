@@ -1,4 +1,5 @@
 using FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.CommandBus;
+using FluentValidation;
 
 namespace FirstLineSoftwareInterviewTask.Business.Services.Features.Item.Commands
 {

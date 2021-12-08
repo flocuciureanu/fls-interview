@@ -4,6 +4,7 @@ using FirstLineSoftwareInterviewTask.Business.Services.Features.User.Builders.Us
 using FirstLineSoftwareInterviewTask.Business.Services.Features.User.Services;
 using FirstLineSoftwareInterviewTask.Common.Core.Infrastructure.CommandBus;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 
 namespace FirstLineSoftwareInterviewTask.Business.Services.Features.User.Commands.User
 {
