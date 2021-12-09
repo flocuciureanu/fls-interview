@@ -29,7 +29,7 @@ namespace FirstLineSoftwareInterviewTask.Business.Services.Features.User.Mapper.
                     ItemId = cartItem.ItemId,
                     Title = itemFromDb.Title, 
                     Count = cartItem.Count,
-                    PriceAmount = _pricingService.GetItemPrice(cartItem.ItemId, cartItem.Count).GetAwaiter().GetResult()
+                    PriceAmount = _pricingService.GetItemPriceAsync(cartItem.ItemId, cartItem.Count).GetAwaiter().GetResult()
                 });
             }
 

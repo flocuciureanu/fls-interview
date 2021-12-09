@@ -14,10 +14,12 @@ namespace FirstLineSoftwareInterviewTask.Business.Services.Features.Item.Service
             _itemService = itemService;
         }
 
-        public async Task<double> GetItemPrice(string itemId, int count)
+        public async Task<double> GetItemPriceAsync(string itemId, int count)
         {
             var item = await _itemService.GetByIdAsync(itemId);
-
+            if (item is null)
+                return 0;
+            
             return GetItemPrice(item.Pricing, count);
         }
         
@@ -66,13 +68,13 @@ namespace FirstLineSoftwareInterviewTask.Business.Services.Features.Item.Service
             return 0;
         }
         
-        public async Task<double> GetCartTotal(CartDetails userCartDetails)
+        public async Task<double> GetCartTotalAsync(CartDetails userCartDetails)
         {
             double totalAmount = 0;
 
             foreach (var cartItem in userCartDetails.CartItems)
             {
-                totalAmount += await GetItemPrice(cartItem.ItemId, cartItem.Count);
+                totalAmount += await GetItemPriceAsync(cartItem.ItemId, cartItem.Count);
             }
 
             return Math.Round(totalAmount, 2);

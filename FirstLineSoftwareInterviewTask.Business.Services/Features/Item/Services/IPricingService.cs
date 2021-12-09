@@ -5,7 +5,7 @@ namespace FirstLineSoftwareInterviewTask.Business.Services.Features.Item.Service
 {
     public interface IPricingService
     {
-        Task<double> GetItemPrice(string itemId, int count);
-        Task<double> GetCartTotal(CartDetails userCartDetails);
+        Task<double> GetItemPriceAsync(string itemId, int count);
+        Task<double> GetCartTotalAsync(CartDetails userCartDetails);
     }
 }
