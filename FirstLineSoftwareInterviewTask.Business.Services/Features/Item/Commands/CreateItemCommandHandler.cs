@@ -36,7 +36,7 @@ namespace FirstLineSoftwareInterviewTask.Business.Services.Features.Item.Command
             var addedItem = await _itemService.InsertOneAsync(item);
 
             return addedItem is null
-                ? _commandResultFactory.Create(false, StatusCodes.Status400BadRequest)
+                ? _commandResultFactory.Create(false, StatusCodes.Status400BadRequest, null, null)
                 : _commandResultFactory.Create(true, StatusCodes.Status201Created, string.Empty,
                     _responseBuilder.Map(addedItem).Build());
         }
